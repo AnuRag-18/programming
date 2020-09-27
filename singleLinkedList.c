@@ -108,7 +108,6 @@ void deleteFromPosition(){
     free(nextNode);
 }
 void length(){
-    
     temp=head;
     while ((temp!=NULL))
     {
@@ -116,7 +115,6 @@ void length(){
         temp=temp->next;
     }
     printf("Length of the linkedlIst is : %d",breath);
-    
 }
 void reverse(){
     struct Node *previousNode,*currentNode,*nextNode;
